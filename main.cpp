@@ -10,7 +10,6 @@ void prnMenu(){
 }
 
 int main(){
-		cout<<"프로그램을 시작합니다."<<endl;
 		int mode, selectNumber, tmpItem;
 		LinkedList<int> *p;
 		bool flag = false;
@@ -19,12 +18,10 @@ int main(){
 		cin>>mode;
 		
 		if(mode == 1) {
-			cout<<"Stack 구조로 데이터를 저장합니다."<<endl;
 			p = new Stack<int>();
 		}
 			
 		else {
-			cout<<"Linked List 구조로 데이터를 저장합니다."<<endl;
 			p = new LinkedList<int>();
 		}
 
