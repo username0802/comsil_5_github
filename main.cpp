@@ -10,6 +10,7 @@ void prnMenu(){
 }
 
 int main(){
+		cout<<"프로그램을 시작합니다."<<endl;
 		int mode, selectNumber, tmpItem;
 		LinkedList<int> *p;
 		bool flag = false;
