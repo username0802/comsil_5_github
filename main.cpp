@@ -20,7 +20,7 @@ int main(){
 						    
 		if(mode == 1) {
 			cout<<"Stack 구조로 데이터를 저장합니다."<<endl;
-			p = new Stack<int>();    // 정수를 저장하는 스택
+			p = new Stack<int>();
 		}
 			
 		else
