@@ -18,6 +18,7 @@ int main(){
 		cin>>mode;
 		if(mode == 1) {
 			p = new Stack<int>();
+		
 		}
 			
 		else {
