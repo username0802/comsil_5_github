@@ -23,6 +23,7 @@ int main(){
 		}
 			
 		else {
+			cout<<"LinkedList 구조로 데이터를 저장합니다."<<endl;
 			p = new LinkedList<int>();
 		}
 
