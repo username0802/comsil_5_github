@@ -18,8 +18,8 @@ int main(){
 		cout<<"자료구조 선택(1: Stack, Other: Linked List): ";
 		cin>>mode;
 		if(mode == 1) {
+			cout<<"Stack 구조로 데이터를 저장합니다."<<endl;
 			p = new Stack<int>();
-		
 		}
 			
 		else {
